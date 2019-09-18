@@ -1,0 +1,1688 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>tblastn</BlastOutput_program>
+  <BlastOutput_version>TBLASTN 2.8.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>WP_086950583.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>CopY/TcrY family copper transport repressor [Vagococcus fluvialis]</BlastOutput_query-def>
+  <BlastOutput_query-len>142</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>WP_086950583.1</Iteration_query-ID>
+  <Iteration_query-def>CopY/TcrY family copper transport repressor [Vagococcus fluvialis]</Iteration_query-def>
+  <Iteration_query-len>142</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|372283141|emb|HE613569.1|</Hit_id>
+  <Hit_def>Streptococcus macedonicus ACA-DC 198 main chromosome complete genome</Hit_def>
+  <Hit_accession>HE613569</Hit_accession>
+  <Hit_len>2130034</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.844</Hsp_bit-score>
+      <Hsp_score>403</Hsp_score>
+      <Hsp_evalue>1.66514e-42</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>416048</Hsp_hit-from>
+      <Hsp_hit-to>416452</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>2</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>ISNAEWEIMRVVWTKEETTSSQILEILEQKTDWTASTVKTLLKRLVDKGYLATQKSGKSFLYSALVSEEEAINRQADELFDKFCQRKHTAIIKHLVETTLMTMADINDLQALLLSKKEEALEEVPCNCIPGQCRC</Hsp_hseq>
+      <Hsp_midline>I++AEWEIMRVVWTK ETTS+++++ILE+K +W  STVKTLL RLV K YL T+K GK F+Y A+VSE++AI    +EL DK C RK  +++  ++E   ++  DI  ++ +L  KKE+A E VPCNCIPGQC C</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>135.191</Hsp_bit-score>
+      <Hsp_score>339</Hsp_score>
+      <Hsp_evalue>7.70258e-34</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>1904105</Hsp_hit-from>
+      <Hsp_hit-to>1904509</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>ITDTEWEVMRVVWANGRVTSKEVISILKEKMDWKQATIKTLLGRLVEKGVLNTEKEGRKFIYTANIEEKEAVGKYTDDIFNRICRKNVGNAVGSIIENHVLSFDDIQRLEEILEMKKAFAVEEVDCQCTEGQCDC</Hsp_hseq>
+      <Hsp_midline>ITD EWE+MRVVW     TS EVI IL++KM+WK +T+KTLL RLV K  L T KEG++FIY A + E++A+    +++ ++IC + VG+ +  +IE   LS  DI+ +E IL  KK  A E V C C  GQC C</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>134.035</Hsp_bit-score>
+      <Hsp_score>336</Hsp_score>
+      <Hsp_evalue>2.17242e-33</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>272343</Hsp_hit-from>
+      <Hsp_hit-to>272747</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>ITDAEWEVMSVVWANDRVTSKKVISVLQEKMDWTQSTIKTILGRLVGKGVLNTEQEGRKFIYTANIVEKEAVRDYAEDIFNRICKKKVGNVIGSIIEDHVLSFDDIDRLEKILEIKKSFAVEEVDCQCTEGQCDC</Hsp_hseq>
+      <Hsp_midline>ITDAEWE+M VVW  +  TS +VI +L++KM+W  ST+KT+L RLV K  L T +EG++FIY A + E++A++    ++ ++IC +KVG+++  +IE   LS  DI+ +E IL  KK  A E V C C  GQC C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|288730948|emb|FN597254.1|</Hit_id>
+  <Hit_def>Streptococcus gallolyticus UCN34 complete genome</Hit_def>
+  <Hit_accession>FN597254</Hit_accession>
+  <Hit_len>2350911</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.458</Hsp_bit-score>
+      <Hsp_score>402</Hsp_score>
+      <Hsp_evalue>2.72948e-42</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>406824</Hsp_hit-from>
+      <Hsp_hit-to>407228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>ISNAEWEIMRVVWTKEETTSSQILEILEQKTDWTASTVKTLLKRLVDKGYLATQKSGKSFLYSALVSEEEAINRQADELFDKFCQRKHTTIIKHLVETTPMTMADINDLQALLLSKKEEALEEVPCNCIPGQCRC</Hsp_hseq>
+      <Hsp_midline>I++AEWEIMRVVWTK ETTS+++++ILE+K +W  STVKTLL RLV K YL T+K GK F+Y A+VSE++AI    +EL DK C RK  +++  ++E   ++  DI  ++ +L  KKE+A E VPCNCIPGQC C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|325177128|emb|FR824043.1|</Hit_id>
+  <Hit_def>Streptococcus gallolyticus subsp. gallolyticus ATCC BAA-2069 complete chromosome sequence, strain ATCC BAA-2069</Hit_def>
+  <Hit_accession>FR824043</Hit_accession>
+  <Hit_len>2356444</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.458</Hsp_bit-score>
+      <Hsp_score>402</Hsp_score>
+      <Hsp_evalue>2.72948e-42</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>397320</Hsp_hit-from>
+      <Hsp_hit-to>397724</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>ISNAEWEIMRVVWTKEETTSSQILEILEQKTDWTASTVKTLLKRLVDKGYLATQKSGKSFLYSALVSEEEAINRQADELFDKFCQRKHTTIIKHLVETTPMTMADINDLQALLLSKKEEALEEVPCNCIPGQCRC</Hsp_hseq>
+      <Hsp_midline>I++AEWEIMRVVWTK ETTS+++++ILE+K +W  STVKTLL RLV K YL T+K GK F+Y A+VSE++AI    +EL DK C RK  +++  ++E   ++  DI  ++ +L  KKE+A E VPCNCIPGQC C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|334279325|dbj|AP012053.1|</Hit_id>
+  <Hit_def>Streptococcus gallolyticus subsp. gallolyticus ATCC 43143 DNA, complete genome</Hit_def>
+  <Hit_accession>AP012053</Hit_accession>
+  <Hit_len>2362241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.458</Hsp_bit-score>
+      <Hsp_score>402</Hsp_score>
+      <Hsp_evalue>2.72948e-42</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>418616</Hsp_hit-from>
+      <Hsp_hit-to>419020</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>2</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>ISNAEWEIMRVVWTKEETTSSQILEILEQKTDWTASTVKTLLKRLVDKGYLATQKSGKSFLYSALVSEEEAINRQADELFDKFCQRKHTTIIKHLVETTPMTMADINDLQALLLSKKEEALEEVPCNCIPGQCRC</Hsp_hseq>
+      <Hsp_midline>I++AEWEIMRVVWTK ETTS+++++ILE+K +W  STVKTLL RLV K YL T+K GK F+Y A+VSE++AI    +EL DK C RK  +++  ++E   ++  DI  ++ +L  KKE+A E VPCNCIPGQC C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1147809929|gb|CP018822.1|</Hit_id>
+  <Hit_def>Streptococcus gallolyticus subsp. gallolyticus DSM 16831, complete genome</Hit_def>
+  <Hit_accession>CP018822</Hit_accession>
+  <Hit_len>2492900</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.073</Hsp_bit-score>
+      <Hsp_score>401</Hsp_score>
+      <Hsp_evalue>3.18725e-42</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>444566</Hsp_hit-from>
+      <Hsp_hit-to>444970</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>2</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>ISNAEWEIMRVVWTKEETTSSQILEILEQKTDWTASTVKTLLKRLVDKGYLATQKSGKSFLYSALVSEEEAINRQADELFDKFCQRKHTAIIKHLVETTPMTMADINDLQAMLLSKKEEALEEVPCNCIPGQCRC</Hsp_hseq>
+      <Hsp_midline>I++AEWEIMRVVWTK ETTS+++++ILE+K +W  STVKTLL RLV K YL T+K GK F+Y A+VSE++AI    +EL DK C RK  +++  ++E   ++  DI  ++ +L  KKE+A E VPCNCIPGQC C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1387294402|gb|CP023704.1|</Hit_id>
+  <Hit_def>Bacillus thermoamylovorans strain SSBM chromosome, complete genome</Hit_def>
+  <Hit_accession>CP023704</Hit_accession>
+  <Hit_len>4016170</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.073</Hsp_bit-score>
+      <Hsp_score>401</Hsp_score>
+      <Hsp_evalue>3.37817e-42</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>2198330</Hsp_hit-from>
+      <Hsp_hit-to>2198734</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>ITDSEWEVMRVVWTLNEATSNDIIDVLEKKKDWKPATTKTFIGRLVKKGILETKKQGKRYIYSAKISEGESIRNNLDDFLDNICNRDRGKTIANMISKSTLSHDDIAMLKRVIENKAKDAVDEIPCNCVPGQCKC</Hsp_hseq>
+      <Hsp_midline>ITD+EWE+MRVVWT NE TS ++ID+LEKK +WKP+T KT + RLV K  LET+K+GK++IY A +SE ++I+   ++ LD IC+R  G  +A MI + TLS  DI  ++ ++  K +DA + +PCNC+PGQC C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|968577226|gb|CP013688.1|</Hit_id>
+  <Hit_def>Streptococcus gallolyticus strain ICDDRB-NRC-S1, complete genome</Hit_def>
+  <Hit_accession>CP013688</Hit_accession>
+  <Hit_len>2052496</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.918</Hsp_bit-score>
+      <Hsp_score>398</Hsp_score>
+      <Hsp_evalue>8.00202e-42</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>1577159</Hsp_hit-from>
+      <Hsp_hit-to>1577563</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>ISNAEWEIMRVVWTKEETTSSQILEILEQKTDWTASTVKTLLKRLVDKGYLATQKSGKLFLYSALVSEEEAINRQTDELFDKFCQRKHTAIIKHLVETTLMTMADINDLQALLLSKKEEALEEVPCNCIPGQCRC</Hsp_hseq>
+      <Hsp_midline>I++AEWEIMRVVWTK ETTS+++++ILE+K +W  STVKTLL RLV K YL T+K GK F+Y A+VSE++AI    +EL DK C RK  +++  ++E   ++  DI  ++ +L  KKE+A E VPCNCIPGQC C</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>134.035</Hsp_bit-score>
+      <Hsp_score>336</Hsp_score>
+      <Hsp_evalue>2.17241e-33</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>1711499</Hsp_hit-from>
+      <Hsp_hit-to>1711903</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>ITDAEWEVMSVVWANDRVTSKKVISVLQEKMDWTQSTIKTILGRLVGKGVLNTEQEGRKFIYTANIVEKEAVRDYAEDIFNRICKKKVGNVIGSIIEDHVLSFDDIDRLEKILEIKKSFAVEEVDCQCTEGQCDC</Hsp_hseq>
+      <Hsp_midline>ITDAEWE+M VVW  +  TS +VI +L++KM+W  ST+KT+L RLV K  L T +EG++FIY A + E++A++    ++ ++IC +KVG+++  +IE   LS  DI+ +E IL  KK  A E V C C  GQC C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|343794879|gb|JF915701.1|</Hit_id>
+  <Hit_def>Bhargavaea cecembensis strain DMV42A CopA (copA) gene, partial cds; CopY (copY), UvdE (uvdE), and Fic (fic) genes, complete cds; and transposon conjugative transposon proteins, conjugative transposon FtsK/SpoIIIE family protein, hypothetical protein, putative conjugative transposon replication initiation factor, conjugative transposon proteins, conjugative transposon membrane protein, conjugative transposon ATP/GTP-binding protein, conjugative transposon membrane protein, putative cell wall hydrolase, putative conjugative transposon exported protein, TetM (tetM), putative conjugative transposon regulatory protein, putative conjugative transposon protein, and putative conjugative transposon regulatory protein genes, complete cds, and conjugative transposon protein gene, partial cds</Hit_def>
+  <Hit_accession>JF915701</Hit_accession>
+  <Hit_len>18048</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.532</Hsp_bit-score>
+      <Hsp_score>397</Hsp_score>
+      <Hsp_evalue>1.18668e-41</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>297</Hsp_hit-from>
+      <Hsp_hit-to>701</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-2</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>VTDSEWEVMRVVWAHGQASSKEIIDVLGQKMDWKPATTKTFLGRLVNKGMLSTETEGRRYLYSAMVGESEFVRHALDEFFSHVCNREVGRTIEDVLSKATLSHRDIDVLQAILDEKKETAVEEVPCNCIPGQCHC</Hsp_hseq>
+      <Hsp_midline>+TD+EWE+MRVVW   + +S E+ID+L +KM+WKP+T KT L RLV K  L T  EG++++Y A+V E + ++ A +E    +C+R+VG  + +++ + TLS +DI+ ++ IL++KKE A E VPCNCIPGQC C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1146017361|gb|CP019609.1|</Hit_id>
+  <Hit_def>Vagococcus penaei strain CD276, complete genome</Hit_def>
+  <Hit_accession>CP019609</Hit_accession>
+  <Hit_len>2365304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.532</Hsp_bit-score>
+      <Hsp_score>397</Hsp_score>
+      <Hsp_evalue>1.32447e-41</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>2072235</Hsp_hit-from>
+      <Hsp_hit-to>2072651</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>NIELITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>NLESISNAEWEIMRVIWTKEETTSTEISQVLGEKLNWKPSTIKTLLTRLVDKGYAVTKRDGKRFIYSSLVSEKEAFSLEMKSLLTKICNRQVVDVLSDVIAEQVLSQTDIERLMTQLIDKQQNAPSSVPCQCIPGQCRC</Hsp_hseq>
+      <Hsp_midline>N+E I++AEWEIMRV+WTK ETTSTE+  +L +K+ WKPST+KTLL+RLV K Y  T+++GK+FIY ++VSE++A       LL KIC+R+V  +L+++I  + LS  DIE +   L  K+++AP  VPC CIPGQC C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1208044919|gb|CP021874.1|</Hit_id>
+  <Hit_def>Enterococcus sp. MN05 sequence complete genome</Hit_def>
+  <Hit_accession>CP021874</Hit_accession>
+  <Hit_len>3842361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.147</Hsp_bit-score>
+      <Hsp_score>396</Hsp_score>
+      <Hsp_evalue>1.40381e-41</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>3338470</Hsp_hit-from>
+      <Hsp_hit-to>3338889</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>KNIELITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>KKTSAITDAEWEIMRVVWTKEETTSKEVTEILNEKTEWKSTTVKTLLSRLVEKEMLGTKRNGNKFTYFPLVEERRSIEVLSEDLLRKICSKKVGKVLESIITNSTLSFSDLDQLESLLQEKRKTAVEVVPCNCIPGQCQC</Hsp_hseq>
+      <Hsp_midline>K    ITDAEWEIMRVVWTK ETTS EV +IL +K EWK +TVKTLLSRLV K+ L T++ G +F Y  +V E+++I+    +LL KIC +KVG +L  +I   TLS  D++ +E +L +K++ A EVVPCNCIPGQC C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|334281572|dbj|AP012054.1|</Hit_id>
+  <Hit_def>Streptococcus pasteurianus ATCC 43144 DNA, complete genome</Hit_def>
+  <Hit_accession>AP012054</Hit_accession>
+  <Hit_len>2100077</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.992</Hsp_bit-score>
+      <Hsp_score>393</Hsp_score>
+      <Hsp_evalue>4.57832e-41</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>348421</Hsp_hit-from>
+      <Hsp_hit-to>348825</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>ISNAEWEIMRVVWTKEETTSSQILEILEQKTDWTASTVKTLLKRLVDKGYLATQKSGKSFLYSTLVSEEEAINRQADELFDKFCQRKHTVIIKHLLETTPMTMADINDLQALLLSKKEEALEEVPCNCIPGQCRC</Hsp_hseq>
+      <Hsp_midline>I++AEWEIMRVVWTK ETTS+++++ILE+K +W  STVKTLL RLV K YL T+K GK F+Y  +VSE++AI    +EL DK C RK   ++  ++E   ++  DI  ++ +L  KKE+A E VPCNCIPGQC C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|407726134|dbj|AP012050.1|</Hit_id>
+  <Hit_def>Amphibacillus xylanus NBRC 15112 DNA, complete genome</Hit_def>
+  <Hit_accession>AP012050</Hit_accession>
+  <Hit_len>2569486</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>151.754</Hsp_bit-score>
+      <Hsp_score>382</Hsp_score>
+      <Hsp_evalue>1.30865e-39</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>556639</Hsp_hit-from>
+      <Hsp_hit-to>557067</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>MTKNIEL-ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>MTVDHEIKISDSEWEVMRVVWANNQVTSKEIIDVLEQKKAWKPATTKTFIGRLVKKDMLQVERSGKRYLYSTDVNEADFVKHMLKDLFENVCNRQKGGMIAYLLSQVPLSHDDIESITRILNKKRDEAVDVVPCNCLPGQCHC</Hsp_hseq>
+      <Hsp_midline>MT + E+ I+D+EWE+MRVVW  N+ TS E+ID+LE+K  WKP+T KT + RLV K  L+  + GK+++Y   V+E   +K    +L + +C+R+ G M+A ++ +  LS  DIE+I  ILNKK+++A +VVPCNC+PGQC C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|508078748|emb|HE999757.2|</Hit_id>
+  <Hit_def>Carnobacterium maltaromaticum LMA28 complete genome</Hit_def>
+  <Hit_accession>HE999757</Hit_accession>
+  <Hit_len>3650416</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.984</Hsp_bit-score>
+      <Hsp_score>380</Hsp_score>
+      <Hsp_evalue>2.43318e-39</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>2014752</Hsp_hit-from>
+      <Hsp_hit-to>2015156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-3</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>ISDAEWEIMRVVWSKKQASSQEIVSVLATKMDWKPATIKTLIGRLVKKELLTTEADGNRFIYRANVSETESVKSATESLFAHVCSKKVGSTIGNLIEEAQLSKSDIQMLEKLIQSKKATAVEEIVCNCVPGQCEC</Hsp_hseq>
+      <Hsp_midline>I+DAEWEIMRVVW+K + +S E++ +L  KM+WKP+T+KTL+ RLV K+ L T  +G +FIYRA VSE +++K+A   L   +C +KVGS +  +IE   LS  DI+ +E ++  KK  A E + CNC+PGQC C</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>107.071</Hsp_bit-score>
+      <Hsp_score>266</Hsp_score>
+      <Hsp_evalue>5.26178e-24</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>2331498</Hsp_hit-from>
+      <Hsp_hit-to>2331845</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-3</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKK</Hsp_qseq>
+      <Hsp_hseq>ITVAEWEVMRVVWSLRTVSSKQVSLILTNKMNWKPATTKTLIGRLVRKGILSTKTDGKRFIYAATISEEECIKFQVNKLLSTICNKSIGTALANAITEYELSSDDIVLIKNKLEKK</Hsp_hseq>
+      <Hsp_midline>IT AEWE+MRVVW+    +S +V  IL  KM WKP+T KTL+ RLV K  L T+ +GK+FIY A +SE++ IK   N+LL  IC++ +G+ LA  I    LS+ DI  I+  L KK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1137428124|gb|CP019433.1|</Hit_id>
+  <Hit_def>Jeotgalibaca sp. PTS2502, complete genome</Hit_def>
+  <Hit_accession>CP019433</Hit_accession>
+  <Hit_len>2300992</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.828</Hsp_bit-score>
+      <Hsp_score>377</Hsp_score>
+      <Hsp_evalue>6.04993e-39</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>60066</Hsp_hit-from>
+      <Hsp_hit-to>60494</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>MTKNIEL-ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>MVMNIQIKITDAEWEVMRVVWAHGSVTSREIIEILESKMQWKAPTIKTLIGRLVEKGALATYSEGRKFIYTAKVSEQESMDVYTEDILSRVCNKHNGKVIADLVEEAALSKKDIASLMELLQKKSESALEVVPCECVTGQCEC</Hsp_hseq>
+      <Hsp_midline>M  NI++ ITDAEWE+MRVVW     TS E+I+ILE KM+WK  T+KTL+ RLV K  L T  EG++FIY A VSEQ+++     ++L ++C++  G ++A+++E   LS KDI ++  +L KK E A EVVPC C+ GQC C</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>139.813</Hsp_bit-score>
+      <Hsp_score>351</Hsp_score>
+      <Hsp_evalue>1.84659e-35</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>156306</Hsp_hit-from>
+      <Hsp_hit-to>156710</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>ISDAEWEIMRVIWTNQPVTSRFISNVLMEKMSWKAATIKTLIGRLVDKGVVSTEQEGNKYLYSAIQTEEESIQSMTSAVLNHICSTKVGHVLANLVEDSQLSQADLDKLATIIQEKRQTAPASVACNCIPGQCHC</Hsp_hseq>
+      <Hsp_midline>I+DAEWEIMRV+WT    TS  + ++L +KM WK +T+KTL+ RLV K  + T +EG +++Y A+ +E+++I++  + +L+ IC  KVG +LA ++E   LS  D++ +  I+ +K++ AP  V CNCIPGQC C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|315471689|gb|CP002394.1|</Hit_id>
+  <Hit_def>Bacillus cellulosilyticus DSM 2522, complete genome</Hit_def>
+  <Hit_accession>CP002394</Hit_accession>
+  <Hit_len>4681672</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.058</Hsp_bit-score>
+      <Hsp_score>375</Hsp_score>
+      <Hsp_evalue>9.63337e-39</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>3242923</Hsp_hit-from>
+      <Hsp_hit-to>3243327</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>ITESEWEIMRVVWTLNKVTSKEIIEVLQEKKDWKPATTKTFIGRLVKKRMLNTESHGKRYIYSAAVSEDETVKNVTNEFFDNICSKDVGKTIAEMISTSTLSFDDIDLLEEVIGKKKKTAVKEVKCNCLKGQCQC</Hsp_hseq>
+      <Hsp_midline>IT++EWEIMRVVWT N+ TS E+I++L++K +WKP+T KT + RLV K+ L T   GK++IY A VSE + +K   NE  D IC + VG  +AEMI   TLS  DI+ +E ++ KKK+ A + V CNC+ GQC C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|961490935|gb|CP013655.1|</Hit_id>
+  <Hit_def>Enterococcus rotai strain LMG 26678 genome</Hit_def>
+  <Hit_accession>CP013655</Hit_accession>
+  <Hit_len>3746111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.058</Hsp_bit-score>
+      <Hsp_score>375</Hsp_score>
+      <Hsp_evalue>1.15807e-38</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>438884</Hsp_hit-from>
+      <Hsp_hit-to>439288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-2</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>ITDAEWEVMRVAWATEETTSKEVTDILNEKTEWKSTTVKTLLSRLVDKGMLGTKRNGNKFTYFPLVEERKSIEVLSEEMLTKVCSKKVGKVLESIIAESLLSFDDIDELEALLKEKRKSAVDVVPCNCTPGQCQC</Hsp_hseq>
+      <Hsp_midline>ITDAEWE+MRV W   ETTS EV DIL +K EWK +TVKTLLSRLV K  L T++ G +F Y  +V E+K+I+    E+L K+C +KVG +L  +I    LS  DI+ +E +L +K++ A +VVPCNC PGQC C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|328672706|gb|CP002563.1|</Hit_id>
+  <Hit_def>Carnobacterium sp. 17-4, complete genome</Hit_def>
+  <Hit_accession>CP002563</Hit_accession>
+  <Hit_len>2635294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>2.19523e-38</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>2004087</Hsp_hit-from>
+      <Hsp_hit-to>2004515</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-3</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>MTKNIE-LITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>MTNKIQPTISDAEWEIMRVVWTNHTVTSKEITEIVKEKMNWKQATIKTLIGRLVEKGILKTEAIGNKYLYSPIISEEESFKSKTTNFFDQICNRKVGTTIAELIREATLSHADVQMLEELVQQKKEEAVDSVPCDCIPGQCDC</Hsp_hseq>
+      <Hsp_midline>MT  I+  I+DAEWEIMRVVWT +  TS E+ +I+++KM WK +T+KTL+ RLV K  L+T   G +++Y  ++SE+++ K+      D+IC+RKVG+ +AE+I   TLS  D++ +E ++ +KKE+A + VPC+CIPGQC C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1100589778|gb|CP017267.1|</Hit_id>
+  <Hit_def>Vagococcus teuberi strain DSM 21459, complete genome</Hit_def>
+  <Hit_accession>CP017267</Hit_accession>
+  <Hit_len>2169060</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>2.23815e-38</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>643554</Hsp_hit-from>
+      <Hsp_hit-to>643958</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>ITQAEWEIMKVVWANDSVTSRFVLDILGDKMEWSMSTVKTLLARLVDKEYLTTQKNGKQFIYEALVNEEVAVNTLLEQDLDKICQKKKGRMIYQLIEEQELSEQDIDNLVDLLTVKKRNAPKKLACNCVVGQCNC</Hsp_hseq>
+      <Hsp_midline>IT AEWEIM+VVW  +  TS  V+DIL  KMEW  STVKTLL+RLV K+YL T+K GKQFIY A+V+E+ A+ T   + LDKIC +K G M+ ++IE + LS +DI+ +  +L  KK +AP+ + CNC+ GQC C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|961350068|gb|CP013614.1|</Hit_id>
+  <Hit_def>Enterococcus silesiacus strain LMG 23085, complete genome</Hit_def>
+  <Hit_accession>CP013614</Hit_accession>
+  <Hit_len>3928141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.902</Hsp_bit-score>
+      <Hsp_score>372</Hsp_score>
+      <Hsp_evalue>3.17259e-38</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>3246837</Hsp_hit-from>
+      <Hsp_hit-to>3247244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>TKNIELITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIP</Hsp_qseq>
+      <Hsp_hseq>TREIQHITDAEWEIMRIVWTQGETTSKEVQQLLNQKTEWKTTTVKTLLARLVEKKLLSTEKLGNKFIYRSLIEEKSGIQLETDELLGKICAKEVGAVLKTIIDESVLSVEDIEQLEKALQKKKKNAVDVILCNCTP</Hsp_hseq>
+      <Hsp_midline>T+ I+ ITDAEWEIMR+VWT+ ETTS EV  +L +K EWK +TVKTLL+RLV KK L T K G +FIYR+++ E+  I+   +ELL KIC ++VG++L  +I+   LS +DIE +E  L KKK++A +V+ CNC P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>143.665</Hsp_bit-score>
+      <Hsp_score>361</Hsp_score>
+      <Hsp_evalue>8.39227e-37</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>2225406</Hsp_hit-from>
+      <Hsp_hit-to>2225810</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-3</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>ITDAEWEIMRVAWTTKETTSKEVTEILNAKTEWKSTTVKTLLSRLVDKGMLGTTRNGNKFIYFPLVEERKSIEALSEEMLAKVCSKKVGKVLESIINESLLSFDDIDELEALLKEKRKSAVKEVACNCTPGQCQC</Hsp_hseq>
+      <Hsp_midline>ITDAEWEIMRV WT  ETTS EV +IL  K EWK +TVKTLLSRLV K  L T + G +FIY  +V E+K+I+    E+L K+C +KVG +L  +I    LS  DI+ +E +L +K++ A + V CNC PGQC C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|443426804|gb|CP003673.1|</Hit_id>
+  <Hit_def>Staphylococcus warneri SG1 plasmid clone pvSw4 genomic sequence</Hit_def>
+  <Hit_accession>CP003673</Hit_accession>
+  <Hit_len>19866</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.517</Hsp_bit-score>
+      <Hsp_score>371</Hsp_score>
+      <Hsp_evalue>3.4207e-38</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>12311</Hsp_hit-from>
+      <Hsp_hit-to>12715</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-3</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>ITDSEWEVMRVVWAQDTVTSKEIREILQQKMDWKPATTKTFIGRLVKKGMLHTEKEGNKFIYSANINENEFIKNNLDETFDNICNKDVGSTIVDLISKATLSFQDIENLEKALEMKKKYAVQEIPCSCVPGQCKC</Hsp_hseq>
+      <Hsp_midline>ITD+EWE+MRVVW ++  TS E+ +IL++KM+WKP+T KT + RLV K  L T KEG +FIY A ++E + IK   +E  D IC++ VGS + ++I + TLS +DIE +E  L  KK+ A + +PC+C+PGQC C</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>52.7582</Hsp_bit-score>
+      <Hsp_score>125</Hsp_score>
+      <Hsp_evalue>5.056e-05</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>3137</Hsp_hit-from>
+      <Hsp_hit-to>3478</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>2</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILN</Hsp_qseq>
+      <Hsp_hseq>ISMAEWDVMNIIWDKKSVSANEIVVEIQKYKEVSDKTIRTLITRLYKKEIIKRYKSENIYFYSSNIKEDDIKMKTAKTFLNKLYGGDMKSLVLNFAKNEELNNKEIEELRDILN</Hsp_hseq>
+      <Hsp_midline>I+ AEW++M ++W K   ++ E++  ++K  E    T++TL++RL  K+ ++  K    + Y + + E           L+K+    + S++    + + L+ K+IE +  ILN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1304488212|gb|CP025135.1|</Hit_id>
+  <Hit_def>Planococcus sp. MB-3u-03 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP025135</Hit_accession>
+  <Hit_len>3378540</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.517</Hsp_bit-score>
+      <Hsp_score>371</Hsp_score>
+      <Hsp_evalue>3.70464e-38</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>2405142</Hsp_hit-from>
+      <Hsp_hit-to>2405546</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-2</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>MTASEREIMRVVWTLGEATSKDIVDVLEAKKEWKPATAKTFIGRLVKKGFLLAEPEGNKYIYSAAISEEDSVKTAAHRLFDQICHKQAGKTIADMLAEAPLSHQDVELIQQVLDEKKKHAVDEVACNCVPGQCKC</Hsp_hseq>
+      <Hsp_midline>+T +E EIMRVVWT  E TS +++D+LE K EWKP+T KT + RLV K +L    EG ++IY A +SE+ ++KTA + L D+IC ++ G  +A+M+    LS +D+E I+ +L++KK+ A + V CNC+PGQC C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|674288313|gb|CP008816.1|</Hit_id>
+  <Hit_def>Enterococcus faecalis ATCC 29212, complete genome</Hit_def>
+  <Hit_accession>CP008816</Hit_accession>
+  <Hit_len>2939973</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.132</Hsp_bit-score>
+      <Hsp_score>370</Hsp_score>
+      <Hsp_evalue>5.10059e-38</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>2386179</Hsp_hit-from>
+      <Hsp_hit-to>2386583</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>ITDAEWEVMRVIWTQDKTTSREVHTLLNEKKEWKSTTVKTLLSRLTDKGLVGTEKAGNKYIYYPLVEERRSVETVADELLAKVCSRKVGSVVETILTESQLSYDDLDRLEELLKEKRKTAVESVPCNCIPGQCQC</Hsp_hseq>
+      <Hsp_midline>ITDAEWE+MRV+WT+++TTS EV  +L +K EWK +TVKTLLSRL  K  + T K G ++IY  +V E+++++T  +ELL K+C RKVGS++  ++    LS  D++ +E +L +K++ A E VPCNCIPGQC C</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>137.502</Hsp_bit-score>
+      <Hsp_score>345</Hsp_score>
+      <Hsp_evalue>1.0566e-34</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>2522202</Hsp_hit-from>
+      <Hsp_hit-to>2522606</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>ITDAEWEVMRVVWANGRVTSKEVISTLGEKMDWKQATTKTLLGRLVEKGALNTEQEGRKYIYSANIEEKEAVRSFTNDIFDRICRKNVGNVVGSIIEDHVLSFDDIQRLEEILEMKKAFAVEEVDCQCTEGQCEC</Hsp_hseq>
+      <Hsp_midline>ITDAEWE+MRVVW     TS EVI  L +KM+WK +T KTLL RLV K  L T +EG+++IY A + E++A+++  N++ D+IC + VG+++  +IE   LS  DI+ +E IL  KK  A E V C C  GQC C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1108579855|gb|CP018102.1|</Hit_id>
+  <Hit_def>Enterococcus faecalis strain L12, complete genome</Hit_def>
+  <Hit_accession>CP018102</Hit_accession>
+  <Hit_len>2668255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.747</Hsp_bit-score>
+      <Hsp_score>369</Hsp_score>
+      <Hsp_evalue>6.82136e-38</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>287178</Hsp_hit-from>
+      <Hsp_hit-to>287582</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>ITDAEWEVMRVIWTQGKTTSREVHTLLNEKKEWKSTTVKTLLSRLTDKGLVGTEKAGNKYIYYPLVEERRSVETVADELLAKVCSRKVGSVVETILTESQLSYDDLDRLEELLKEKRKTAVESVPCNCIPGQCQC</Hsp_hseq>
+      <Hsp_midline>ITDAEWE+MRV+WT+ +TTS EV  +L +K EWK +TVKTLLSRL  K  + T K G ++IY  +V E+++++T  +ELL K+C RKVGS++  ++    LS  D++ +E +L +K++ A E VPCNCIPGQC C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1102513545|gb|CP018004.1|</Hit_id>
+  <Hit_def>Enterococcus faecalis strain L9, complete genome</Hit_def>
+  <Hit_accession>CP018004</Hit_accession>
+  <Hit_len>2693039</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.747</Hsp_bit-score>
+      <Hsp_score>369</Hsp_score>
+      <Hsp_evalue>6.82136e-38</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>252643</Hsp_hit-from>
+      <Hsp_hit-to>253047</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>ITDAEWEVMRVIWTQGKTTSREVHTLLNEKKEWKSTTVKTLLSRLTDKGLVGTEKAGNKYIYYPLVEERRSVETVADELLAKVCSRKVGSVVETILTESQLSYDDLDRLEELLKEKRKTAVESVPCNCIPGQCQC</Hsp_hseq>
+      <Hsp_midline>ITDAEWE+MRV+WT+ +TTS EV  +L +K EWK +TVKTLLSRL  K  + T K G ++IY  +V E+++++T  +ELL K+C RKVGS++  ++    LS  D++ +E +L +K++ A E VPCNCIPGQC C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1049595898|dbj|AP017623.1|</Hit_id>
+  <Hit_def>Enterococcus faecalis DNA, complete genome, strain: W11</Hit_def>
+  <Hit_accession>AP017623</Hit_accession>
+  <Hit_len>2704865</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.747</Hsp_bit-score>
+      <Hsp_score>369</Hsp_score>
+      <Hsp_evalue>6.82137e-38</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>258667</Hsp_hit-from>
+      <Hsp_hit-to>259071</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>ITDAEWEVMRVIWTQGKTTSREVHTLLNEKKEWKSTTVKTLLSRLTDKGLVGTEKAGNKYIYYPLVEERRSVETVADELLAKVCSRKVGSVVETILTESQLSYDDLDRLEELLKEKRKTAVESVPCNCIPGQCQC</Hsp_hseq>
+      <Hsp_midline>ITDAEWE+MRV+WT+ +TTS EV  +L +K EWK +TVKTLLSRL  K  + T K G ++IY  +V E+++++T  +ELL K+C RKVGS++  ++    LS  D++ +E +L +K++ A E VPCNCIPGQC C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1298135166|gb|CP022488.1|</Hit_id>
+  <Hit_def>Enterococcus faecalis ARO1/DG chromosome, complete genome</Hit_def>
+  <Hit_accession>CP022488</Hit_accession>
+  <Hit_len>2717680</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.747</Hsp_bit-score>
+      <Hsp_score>369</Hsp_score>
+      <Hsp_evalue>6.82137e-38</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>248658</Hsp_hit-from>
+      <Hsp_hit-to>249062</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>ITDAEWEVMRVIWTQGKTTSREVHTLLNEKKEWKSTTVKTLLSRLTDKGLVGTEKAGNKYIYYPLVEERRSVETVADELLAKVCSRKVGSVVETILTESQLSYDDLDRLEELLKEKRKTAVESVPCNCIPGQCQC</Hsp_hseq>
+      <Hsp_midline>ITDAEWE+MRV+WT+ +TTS EV  +L +K EWK +TVKTLLSRL  K  + T K G ++IY  +V E+++++T  +ELL K+C RKVGS++  ++    LS  D++ +E +L +K++ A E VPCNCIPGQC C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1142906375|gb|CP019512.1|</Hit_id>
+  <Hit_def>Enterococcus faecalis strain CLB21560, complete genome</Hit_def>
+  <Hit_accession>CP019512</Hit_accession>
+  <Hit_len>3111017</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.747</Hsp_bit-score>
+      <Hsp_score>369</Hsp_score>
+      <Hsp_evalue>6.82144e-38</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>261981</Hsp_hit-from>
+      <Hsp_hit-to>262385</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>ITDAEWEVMRVIWTQGKTTSREVHTLLNEKKEWKSTTVKTLLSRLTDKGLVGTEKAGNKYIYYPLVEERRSVETVADELLAKVCSRKVGSVVETILTESQLSYDDLDRLEELLKEKRKTAVESVPCNCIPGQCQC</Hsp_hseq>
+      <Hsp_midline>ITDAEWE+MRV+WT+ +TTS EV  +L +K EWK +TVKTLLSRL  K  + T K G ++IY  +V E+++++T  +ELL K+C RKVGS++  ++    LS  D++ +E +L +K++ A E VPCNCIPGQC C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|1148966307|gb|CP019728.1|</Hit_id>
+  <Hit_def>Jeotgalibaca dankookensis strain EX-07, complete genome</Hit_def>
+  <Hit_accession>CP019728</Hit_accession>
+  <Hit_len>2096058</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.747</Hsp_bit-score>
+      <Hsp_score>369</Hsp_score>
+      <Hsp_evalue>6.88761e-38</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>1331808</Hsp_hit-from>
+      <Hsp_hit-to>1332212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-2</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>ITEAEWEIMRVIWTNQPATSRFITEVLSEQMNWKSATVKTLIGRLVEKGFVSTKKQGKKYLYSAMISEEDSINALATDVFEHICATKVGATLANQIEQATLSRDDIQLIEDILQKKKEQAVEKIFCDCLPGQCQC</Hsp_hseq>
+      <Hsp_midline>IT+AEWEIMRV+WT    TS  + ++L ++M WK +TVKTL+ RLV K ++ T+K+GK+++Y A++SE+ +I     ++ + IC  KVG+ LA  IE+ TLS  DI+ IE IL KKKE A E + C+C+PGQC C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|1127393611|gb|CP015998.1|</Hit_id>
+  <Hit_def>Enterococcus faecalis strain AMB05 genome</Hit_def>
+  <Hit_accession>CP015998</Hit_accession>
+  <Hit_len>2711602</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.747</Hsp_bit-score>
+      <Hsp_score>369</Hsp_score>
+      <Hsp_evalue>7.51547e-38</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>2192367</Hsp_hit-from>
+      <Hsp_hit-to>2192771</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>ITDAEWEVMRVIWTQGKTTSREVHTLLNEKKEWKSTTVKTLLSRLTDKGLVGTEKAGNKYIYYPLVEERQSVETVADELLAKVCSRKVGSVVETILTESQLSYDDLDRLEELLKEKRKTAVESVPCNCIPGQCQC</Hsp_hseq>
+      <Hsp_midline>ITDAEWE+MRV+WT+ +TTS EV  +L +K EWK +TVKTLLSRL  K  + T K G ++IY  +V E+++++T  +ELL K+C RKVGS++  ++    LS  D++ +E +L +K++ A E VPCNCIPGQC C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|1199772504|gb|CP015883.1|</Hit_id>
+  <Hit_def>Enterococcus faecalis strain sorialis, complete genome</Hit_def>
+  <Hit_accession>CP015883</Hit_accession>
+  <Hit_len>2873100</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.747</Hsp_bit-score>
+      <Hsp_score>369</Hsp_score>
+      <Hsp_evalue>7.51551e-38</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>398604</Hsp_hit-from>
+      <Hsp_hit-to>399008</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>ITDAEWEVMRVIWTQGKTTSREVHTLLNEKKEWKSTTVKTLLSRLTDKGLVGTEKAGNKYIYYPLVEERQSVETVADELLAKVCSRKVGSVVETILTESQLSYDDLDRLEELLKEKRKTAVESVPCNCIPGQCQC</Hsp_hseq>
+      <Hsp_midline>ITDAEWE+MRV+WT+ +TTS EV  +L +K EWK +TVKTLLSRL  K  + T K G ++IY  +V E+++++T  +ELL K+C RKVGS++  ++    LS  D++ +E +L +K++ A E VPCNCIPGQC C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|1192722854|gb|CP021161.1|</Hit_id>
+  <Hit_def>Enterococcus faecalis strain DD14 genome</Hit_def>
+  <Hit_accession>CP021161</Hit_accession>
+  <Hit_len>2893365</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.747</Hsp_bit-score>
+      <Hsp_score>369</Hsp_score>
+      <Hsp_evalue>7.51551e-38</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>359293</Hsp_hit-from>
+      <Hsp_hit-to>359697</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>ITDAEWEVMRVIWTQGKTTSREVHTLLNEKKEWKSTTVKTLLSRLTDKGLVGTEKAGNKYIYYPLVEERQSVETVADELLAKVCSRKVGSVVETILTESQLSYDDLDRLEELLKEKRKTAVESVPCNCIPGQCQC</Hsp_hseq>
+      <Hsp_midline>ITDAEWE+MRV+WT+ +TTS EV  +L +K EWK +TVKTLLSRL  K  + T K G ++IY  +V E+++++T  +ELL K+C RKVGS++  ++    LS  D++ +E +L +K++ A E VPCNCIPGQC C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|29350190|gb|AE016830.1|</Hit_id>
+  <Hit_def>Enterococcus faecalis V583, complete genome</Hit_def>
+  <Hit_accession>AE016830</Hit_accession>
+  <Hit_len>3218031</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.747</Hsp_bit-score>
+      <Hsp_score>369</Hsp_score>
+      <Hsp_evalue>7.51557e-38</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>282846</Hsp_hit-from>
+      <Hsp_hit-to>283250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>ITDAEWEVMRVIWTQGKTTSREVHTLLNEKKEWKSTTVKTLLSRLTDKGLVGTEKAGNKYIYYPLVEERQSVETVADELLAKVCSRKVGSVVETILTESQLSYDDLDRLEELLKEKRKTAVESVPCNCIPGQCQC</Hsp_hseq>
+      <Hsp_midline>ITDAEWE+MRV+WT+ +TTS EV  +L +K EWK +TVKTLLSRL  K  + T K G ++IY  +V E+++++T  +ELL K+C RKVGS++  ++    LS  D++ +E +L +K++ A E VPCNCIPGQC C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|327533853|gb|CP002621.1|</Hit_id>
+  <Hit_def>Enterococcus faecalis OG1RF, complete genome</Hit_def>
+  <Hit_accession>CP002621</Hit_accession>
+  <Hit_len>2739625</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.976</Hsp_bit-score>
+      <Hsp_score>367</Hsp_score>
+      <Hsp_evalue>1.2931e-37</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>249598</Hsp_hit-from>
+      <Hsp_hit-to>250002</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>ITDAEWEVMRVIWTQGKTTSREVHTLLNEKKEWKSTTVKTLLSRLTDKGLVGTEKVGNKYIYYPLVEERRSVETVADELLAKVCSRKVGSVVETILTESQLSYDDLDRLEELLKEKRKTAVESVPCNCIPGQCQC</Hsp_hseq>
+      <Hsp_midline>ITDAEWE+MRV+WT+ +TTS EV  +L +K EWK +TVKTLLSRL  K  + T K G ++IY  +V E+++++T  +ELL K+C RKVGS++  ++    LS  D++ +E +L +K++ A E VPCNCIPGQC C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|1011599055|gb|CP014949.1|</Hit_id>
+  <Hit_def>Enterococcus faecalis strain LD33, complete genome</Hit_def>
+  <Hit_accession>CP014949</Hit_accession>
+  <Hit_len>2803429</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.976</Hsp_bit-score>
+      <Hsp_score>367</Hsp_score>
+      <Hsp_evalue>1.2931e-37</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>2147289</Hsp_hit-from>
+      <Hsp_hit-to>2147693</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>ITDAEWEVMRVIWTQGKTTSREVHTLLNEKKEWKSTTVKTLLSRLTDKGLVGTEKVGNKYIYYPLVEERRSVETVADELLAKVCSRKVGSVVETILTESQLSYDDLDRLEELLKEKRKTAVESVPCNCIPGQCQC</Hsp_hseq>
+      <Hsp_midline>ITDAEWE+MRV+WT+ +TTS EV  +L +K EWK +TVKTLLSRL  K  + T K G ++IY  +V E+++++T  +ELL K+C RKVGS++  ++    LS  D++ +E +L +K++ A E VPCNCIPGQC C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|427183854|emb|HF558530.1|</Hit_id>
+  <Hit_def>Enterococcus faecalis str. Symbioflor 1, complete genome</Hit_def>
+  <Hit_accession>HF558530</Hit_accession>
+  <Hit_len>2810675</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.976</Hsp_bit-score>
+      <Hsp_score>367</Hsp_score>
+      <Hsp_evalue>1.2931e-37</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>254454</Hsp_hit-from>
+      <Hsp_hit-to>254858</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>ITDAEWEVMRVIWTQGKTTSREVHTLLNEKKEWKSTTVKTLLSRLTDKGLVGTEKVGNKYIYYPLVEERRSVETVADELLAKVCSRKVGSVVETILTESQLSYDDLDRLEELLKEKRKTAVESVPCNCIPGQCQC</Hsp_hseq>
+      <Hsp_midline>ITDAEWE+MRV+WT+ +TTS EV  +L +K EWK +TVKTLLSRL  K  + T K G ++IY  +V E+++++T  +ELL K+C RKVGS++  ++    LS  D++ +E +L +K++ A E VPCNCIPGQC C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1354588197|gb|CP022059.2|</Hit_id>
+  <Hit_def>Enterococcus faecalis strain FDAARGOS_338 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP022059</Hit_accession>
+  <Hit_len>2861022</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.976</Hsp_bit-score>
+      <Hsp_score>367</Hsp_score>
+      <Hsp_evalue>1.2931e-37</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>326785</Hsp_hit-from>
+      <Hsp_hit-to>327189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>ITDAEWEVMRVIWTQGKTTSREVHTLLNEKKEWKSTTVKTLLSRLTDKGLVGTEKVGNKYIYYPLVEERRSVETVADELLAKVCSRKVGSVVETILTESQLSYDDLDRLEELLKEKRKTAVESVPCNCIPGQCQC</Hsp_hseq>
+      <Hsp_midline>ITDAEWE+MRV+WT+ +TTS EV  +L +K EWK +TVKTLLSRL  K  + T K G ++IY  +V E+++++T  +ELL K+C RKVGS++  ++    LS  D++ +E +L +K++ A E VPCNCIPGQC C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1387841786|dbj|AP018543.1|</Hit_id>
+  <Hit_def>Enterococcus faecalis KUB3007 DNA, complete genome</Hit_def>
+  <Hit_accession>AP018543</Hit_accession>
+  <Hit_len>2890148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.976</Hsp_bit-score>
+      <Hsp_score>367</Hsp_score>
+      <Hsp_evalue>1.2931e-37</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>242322</Hsp_hit-from>
+      <Hsp_hit-to>242726</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>ITDAEWEVMRVIWTQGKTTSREVHTLLNEKKEWKSTTVKTLLSRLTDKGLVGTEKVGNKYIYYPLVEERRSVETVADELLAKVCSRKVGSVVETILTESQLSYDDLDRLEELLKEKRKTAVESVPCNCIPGQCQC</Hsp_hseq>
+      <Hsp_midline>ITDAEWE+MRV+WT+ +TTS EV  +L +K EWK +TVKTLLSRL  K  + T K G ++IY  +V E+++++T  +ELL K+C RKVGS++  ++    LS  D++ +E +L +K++ A E VPCNCIPGQC C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|1387838739|dbj|AP018538.1|</Hit_id>
+  <Hit_def>Enterococcus faecalis KUB3006 DNA, complete genome</Hit_def>
+  <Hit_accession>AP018538</Hit_accession>
+  <Hit_len>2893216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.976</Hsp_bit-score>
+      <Hsp_score>367</Hsp_score>
+      <Hsp_evalue>1.2931e-37</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>243856</Hsp_hit-from>
+      <Hsp_hit-to>244260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>ITDAEWEVMRVIWTQGKTTSREVHTLLNEKKEWKSTTVKTLLSRLTDKGLVGTEKVGNKYIYYPLVEERRSVETVADELLAKVCSRKVGSVVETILTESQLSYDDLDRLEELLKEKRKTAVESVPCNCIPGQCQC</Hsp_hseq>
+      <Hsp_midline>ITDAEWE+MRV+WT+ +TTS EV  +L +K EWK +TVKTLLSRL  K  + T K G ++IY  +V E+++++T  +ELL K+C RKVGS++  ++    LS  D++ +E +L +K++ A E VPCNCIPGQC C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|1373300121|gb|CP028285.1|</Hit_id>
+  <Hit_def>Enterococcus faecalis strain FDAARGOS_324 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP028285</Hit_accession>
+  <Hit_len>2928142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.976</Hsp_bit-score>
+      <Hsp_score>367</Hsp_score>
+      <Hsp_evalue>1.2931e-37</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>2717446</Hsp_hit-from>
+      <Hsp_hit-to>2717850</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-2</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>ITDAEWEVMRVIWTQGKTTSREVHTLLNEKKEWKSTTVKTLLSRLTDKGLVGTEKVGNKYIYYPLVEERRSVETVADELLAKVCSRKVGSVVETILTESQLSYDDLDRLEELLKEKRKTAVESVPCNCIPGQCQC</Hsp_hseq>
+      <Hsp_midline>ITDAEWE+MRV+WT+ +TTS EV  +L +K EWK +TVKTLLSRL  K  + T K G ++IY  +V E+++++T  +ELL K+C RKVGS++  ++    LS  D++ +E +L +K++ A E VPCNCIPGQC C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|582035815|gb|CP004081.1|</Hit_id>
+  <Hit_def>Enterococcus faecalis DENG1, complete genome</Hit_def>
+  <Hit_accession>CP004081</Hit_accession>
+  <Hit_len>2961043</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.976</Hsp_bit-score>
+      <Hsp_score>367</Hsp_score>
+      <Hsp_evalue>1.29311e-37</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>258234</Hsp_hit-from>
+      <Hsp_hit-to>258638</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>ITDAEWEVMRVIWTQGKTTSREVHTLLNEKKEWKSTTVKTLLSRLTDKGLVGTEKVGNKYIYYPLVEERRSVETVADELLAKVCSRKVGSVVETILTESQLSYDDLDRLEELLKEKRKTAVESVPCNCIPGQCQC</Hsp_hseq>
+      <Hsp_midline>ITDAEWE+MRV+WT+ +TTS EV  +L +K EWK +TVKTLLSRL  K  + T K G ++IY  +V E+++++T  +ELL K+C RKVGS++  ++    LS  D++ +E +L +K++ A E VPCNCIPGQC C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|397335222|gb|CP003726.1|</Hit_id>
+  <Hit_def>Enterococcus faecalis D32, complete genome</Hit_def>
+  <Hit_accession>CP003726</Hit_accession>
+  <Hit_len>2987450</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.976</Hsp_bit-score>
+      <Hsp_score>367</Hsp_score>
+      <Hsp_evalue>1.29311e-37</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>251067</Hsp_hit-from>
+      <Hsp_hit-to>251471</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>ITDAEWEVMRVIWTQGKTTSREVHTLLNEKKEWKSTTVKTLLSRLTDKGLVGTEKVGNKYIYYPLVEERRSVETVADELLAKVCSRKVGSVVETILTESQLSYDDLDRLEELLKEKRKTAVESVPCNCIPGQCQC</Hsp_hseq>
+      <Hsp_midline>ITDAEWE+MRV+WT+ +TTS EV  +L +K EWK +TVKTLLSRL  K  + T K G ++IY  +V E+++++T  +ELL K+C RKVGS++  ++    LS  D++ +E +L +K++ A E VPCNCIPGQC C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|323478858|gb|CP002491.1|</Hit_id>
+  <Hit_def>Enterococcus faecalis 62, complete genome</Hit_def>
+  <Hit_accession>CP002491</Hit_accession>
+  <Hit_len>2988673</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.976</Hsp_bit-score>
+      <Hsp_score>367</Hsp_score>
+      <Hsp_evalue>1.29311e-37</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>703720</Hsp_hit-from>
+      <Hsp_hit-to>704124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>ITDAEWEVMRVIWTQGKTTSREVHTLLNEKKEWKSTTVKTLLSRLTDKGLVGTEKVGNKYIYYPLVEERRSVETVADELLAKVCSRKVGSVVETILTESQLSYDDLDRLEELLKEKRKTAVESVPCNCIPGQCQC</Hsp_hseq>
+      <Hsp_midline>ITDAEWE+MRV+WT+ +TTS EV  +L +K EWK +TVKTLLSRL  K  + T K G ++IY  +V E+++++T  +ELL K+C RKVGS++  ++    LS  D++ +E +L +K++ A E VPCNCIPGQC C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|1233009135|gb|CP022712.1|</Hit_id>
+  <Hit_def>Enterococcus faecalis strain KB1 genome</Hit_def>
+  <Hit_accession>CP022712</Hit_accession>
+  <Hit_len>3025655</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.976</Hsp_bit-score>
+      <Hsp_score>367</Hsp_score>
+      <Hsp_evalue>1.29311e-37</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>2381992</Hsp_hit-from>
+      <Hsp_hit-to>2382396</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>ITDAEWEVMRVIWTQGKTTSREVHTLLNEKKEWKSTTVKTLLSRLTDKGLVGTEKVGNKYIYYPLVEERRSVETVADELLAKVCSRKVGSVVETILTESQLSYDDLDRLEELLKEKRKTAVESVPCNCIPGQCQC</Hsp_hseq>
+      <Hsp_midline>ITDAEWE+MRV+WT+ +TTS EV  +L +K EWK +TVKTLLSRL  K  + T K G ++IY  +V E+++++T  +ELL K+C RKVGS++  ++    LS  D++ +E +L +K++ A E VPCNCIPGQC C</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.0679236</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>102</Hsp_query-to>
+      <Hsp_hit-from>2987641</Hsp_hit-from>
+      <Hsp_hit-to>2987934</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-3</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKI---CDRKVGSMLAEM</Hsp_qseq>
+      <Hsp_hseq>VTNSELEVLKFIWKSEPVPSGSITHEMKLCNNWHPSTSKTLIKRLLDKQTICYSTVNRRRYYSAIISEQEFLLFEIQRIISGMNSECIAEISSYLAKL</Hsp_hseq>
+      <Hsp_midline>+T++E E+++ +W      S  +   ++    W PST KTL+ RL+ K+ +      ++  Y A++SEQ+ +      ++  +   C  ++ S LA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1173533644|gb|CP015410.2|</Hit_id>
+  <Hit_def>Enterococcus faecalis strain KB1, complete genome</Hit_def>
+  <Hit_accession>CP015410</Hit_accession>
+  <Hit_len>3026009</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.976</Hsp_bit-score>
+      <Hsp_score>367</Hsp_score>
+      <Hsp_evalue>1.29311e-37</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>951586</Hsp_hit-from>
+      <Hsp_hit-to>951990</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>ITDAEWEVMRVIWTQGKTTSREVHTLLNEKKEWKSTTVKTLLSRLTDKGLVGTEKVGNKYIYYPLVEERRSVETVADELLAKVCSRKVGSVVETILTESQLSYDDLDRLEELLKEKRKTAVESVPCNCIPGQCQC</Hsp_hseq>
+      <Hsp_midline>ITDAEWE+MRV+WT+ +TTS EV  +L +K EWK +TVKTLLSRL  K  + T K G ++IY  +V E+++++T  +ELL K+C RKVGS++  ++    LS  D++ +E +L +K++ A E VPCNCIPGQC C</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.0679236</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>102</Hsp_query-to>
+      <Hsp_hit-from>1557235</Hsp_hit-from>
+      <Hsp_hit-to>1557528</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-3</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKI---CDRKVGSMLAEM</Hsp_qseq>
+      <Hsp_hseq>VTNSELEVLKFIWKSEPVPSGSITHEMKLCNNWHPSTSKTLIKRLLDKQTICYSTVNRRRYYSAIISEQEFLLFEIQRIISGMNSECIAEISSYLAKL</Hsp_hseq>
+      <Hsp_midline>+T++E E+++ +W      S  +   ++    W PST KTL+ RL+ K+ +      ++  Y A++SEQ+ +      ++  +   C  ++ S LA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|295112306|emb|FP929058.1|</Hit_id>
+  <Hit_def>Enterococcus sp. 7L76 draft genome</Hit_def>
+  <Hit_accession>FP929058</Hit_accession>
+  <Hit_len>3096657</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.976</Hsp_bit-score>
+      <Hsp_score>367</Hsp_score>
+      <Hsp_evalue>1.29311e-37</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>2608353</Hsp_hit-from>
+      <Hsp_hit-to>2608757</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-2</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>ITDAEWEVMRVIWTQGKTTSREVHTLLNEKKEWKSTTVKTLLSRLTDKGLVGTEKVGNKYIYYPLVEERRSVETVADELLAKVCSRKVGSVVETILTESQLSYDDLDRLEELLKEKRKTAVESVPCNCIPGQCQC</Hsp_hseq>
+      <Hsp_midline>ITDAEWE+MRV+WT+ +TTS EV  +L +K EWK +TVKTLLSRL  K  + T K G ++IY  +V E+++++T  +ELL K+C RKVGS++  ++    LS  D++ +E +L +K++ A E VPCNCIPGQC C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|1395305584|gb|CP029612.1|</Hit_id>
+  <Hit_def>Enterococcus faecalis strain H25 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP029612</Hit_accession>
+  <Hit_len>3132715</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.976</Hsp_bit-score>
+      <Hsp_score>367</Hsp_score>
+      <Hsp_evalue>1.29311e-37</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>287301</Hsp_hit-from>
+      <Hsp_hit-to>287705</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>ITDAEWEVMRVIWTQGKTTSREVHTLLNEKKEWKSTTVKTLLSRLTDKGLVGTEKVGNKYIYYPLVEERRSVETVADELLAKVCSRKVGSVVETILTESQLSYDDLDRLEELLKEKRKTAVESVPCNCIPGQCQC</Hsp_hseq>
+      <Hsp_midline>ITDAEWE+MRV+WT+ +TTS EV  +L +K EWK +TVKTLLSRL  K  + T K G ++IY  +V E+++++T  +ELL K+C RKVGS++  ++    LS  D++ +E +L +K++ A E VPCNCIPGQC C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1027079197|gb|CP014699.1|</Hit_id>
+  <Hit_def>Streptococcus pantholopis strain TA 26, complete genome</Hit_def>
+  <Hit_accession>CP014699</Hit_accession>
+  <Hit_len>2241302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.591</Hsp_bit-score>
+      <Hsp_score>366</Hsp_score>
+      <Hsp_evalue>1.53948e-37</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>266585</Hsp_hit-from>
+      <Hsp_hit-to>266992</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>2</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>LITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>IIANAEWEVMRVVWAKGQTTSGEILEILKQKMQWSPSTVKTLLKRLVAKGCLQAEKKGKRFIYSAKIDEKSSMDRQTDDLLNKFCQRQHPALLEHLLHTSSLTLTDIEHLQNVLTHKKKHAAAEIHCNCIPGQCRC</Hsp_hseq>
+      <Hsp_midline>+I +AEWE+MRVVW K +TTS E+++IL++KM+W PSTVKTLL RLV K  L+  K+GK+FIY A + E+ ++    ++LL+K C R+  ++L  ++   +L+  DIE ++ +L  KK+ A   + CNCIPGQC C</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>68.1662</Hsp_bit-score>
+      <Hsp_score>165</Hsp_score>
+      <Hsp_evalue>2.0484e-10</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1674882</Hsp_hit-from>
+      <Hsp_hit-to>1675250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>KNIELITDAEWEIMRVVW-TKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKK</Hsp_qseq>
+      <Hsp_hseq>KSMKRLPDAEFTVLKAIWHLPNPVTSSQIMTALGDDNHWKRQTLLTILARLIEKGFLSSERQGRERLYTALVSENEYMEVEASHFFERYKGQSFGNLMKSFFSTHQLSDADLDDINHLIQERK</Hsp_hseq>
+      <Hsp_midline>K+++ + DAE+ +++ +W   N  TS++++  L     WK  T+ T+L+RL+ K +L + ++G++ +Y A+VSE + ++   +   ++   +  G+++        LS  D++ I  ++ ++K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1383731729|gb|CP027805.1|</Hit_id>
+  <Hit_def>Lactobacillus reuteri strain WHH1689 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP027805</Hit_accession>
+  <Hit_len>2044184</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>143.28</Hsp_bit-score>
+      <Hsp_score>360</Hsp_score>
+      <Hsp_evalue>1.00883e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1014013</Hsp_hit-from>
+      <Hsp_hit-to>1014420</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>MTKNIELITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIP</Hsp_qseq>
+      <Hsp_hseq>MNINLE-ITPAEWQIMRVVWSLRQTTSSQIIEILQKKVDWKPATIKTLLRRLVDKKALSATRQGRGFIYEPLVPEQQTMDQAADNLFNNICERHVGSTLEHVINNVTLSKDDIAKLQELLASKATDSPDHVKCNCIP</Hsp_hseq>
+      <Hsp_midline>M  N+E IT AEW+IMRVVW+  +TTS+++I+IL+KK++WKP+T+KTLL RLV KK L   ++G+ FIY  +V EQ+ +  A + L + IC+R VGS L  +I   TLS  DI  ++ +L  K  D+P+ V CNCIP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|1112927908|gb|CP017761.1|</Hit_id>
+  <Hit_def>Marinilactibacillus sp. 15R, complete genome</Hit_def>
+  <Hit_accession>CP017761</Hit_accession>
+  <Hit_len>2767908</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>143.28</Hsp_bit-score>
+      <Hsp_score>360</Hsp_score>
+      <Hsp_evalue>1.23654e-36</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>456937</Hsp_hit-from>
+      <Hsp_hit-to>457341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>ITASEWEVMRVVWANKQTTSKYISEVLEDKMNWKPVTTKTLIGRLVKKNKLSTIEEGRKYLYSPQVTEQECIQESSKEVLQQVCSKKRGSVLYQMIEDTTVSIKDIEKMQKLLEEKKTSAPEVILCQCTPGQCNC</Hsp_hseq>
+      <Hsp_midline>IT +EWE+MRVVW   +TTS  + ++LE KM WKP T KTL+ RLV K  L T +EG++++Y   V+EQ+ I+ +  E+L ++C +K GS+L +MIE  T+S KDIE ++ +L +KK  APEV+ C C PGQC C</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>139.043</Hsp_bit-score>
+      <Hsp_score>349</Hsp_score>
+      <Hsp_evalue>3.89432e-35</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>2692103</Hsp_hit-from>
+      <Hsp_hit-to>2692507</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-3</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>VTDAEWEVMRVVWANKKVTSKEVIAILEDKMNWKQATIKTLLGRLVEKGALSTEQEGKKYIYSAKIEENETIKDYTNDVFSRICNKEVGYVIEGLIEDHILSFDDIRRLEKALEMKKKSAVEEVSCHCAPGQCEC</Hsp_hseq>
+      <Hsp_midline>+TDAEWE+MRVVW   + TS EVI ILE KM WK +T+KTLL RLV K  L T +EGK++IY A + E + IK   N++  +IC+++VG ++  +IE   LS  DI  +E  L  KK+ A E V C+C PGQC C</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>137.502</Hsp_bit-score>
+      <Hsp_score>345</Hsp_score>
+      <Hsp_evalue>1.30766e-34</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>2668171</Hsp_hit-from>
+      <Hsp_hit-to>2668575</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>ITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIPGQCLC</Hsp_qseq>
+      <Hsp_hseq>ITDAEWEVMRVVWANTQVTSKEVISTLGEKMDWKQATTKTLLGRLVEKGVLNTEQEGRKYIYSANIEEKEAVRSFTNDIFDRICRKNVGNVIESIIKDHTLSFDDIQRLEEILEMKKAFAVEEVDCQCAEGQCDC</Hsp_hseq>
+      <Hsp_midline>ITDAEWE+MRVVW   + TS EVI  L +KM+WK +T KTLL RLV K  L T +EG+++IY A + E++A+++  N++ D+IC + VG+++  +I+  TLS  DI+ +E IL  KK  A E V C C  GQC C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|336447599|gb|CP002844.1|</Hit_id>
+  <Hit_def>Lactobacillus reuteri SD2112, complete genome</Hit_def>
+  <Hit_accession>CP002844</Hit_accession>
+  <Hit_len>2264399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.51</Hsp_bit-score>
+      <Hsp_score>358</Hsp_score>
+      <Hsp_evalue>2.19028e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>2231574</Hsp_hit-from>
+      <Hsp_hit-to>2231981</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>MTKNIELITDAEWEIMRVVWTKNETTSTEVIDILEKKMEWKPSTVKTLLSRLVTKKYLETRKEGKQFIYRAVVSEQKAIKTAGNELLDKICDRKVGSMLAEMIERKTLSTKDIEAIEMILNKKKEDAPEVVPCNCIP</Hsp_qseq>
+      <Hsp_hseq>MNINLE-ITPAEWQIMRVVWSLRQTTSSQIIEILQKKVDWKPATIKTLLRRLVDKKALSATRQGRGFIYEPLVPEQQTMDQAADNLFNNICERHVGSTLEHVINNVTLSKDDIAKLQELLASKVTDSPDHVKCNCIP</Hsp_hseq>
+      <Hsp_midline>M  N+E IT AEW+IMRVVW+  +TTS+++I+IL+KK++WKP+T+KTLL RLV KK L   ++G+ FIY  +V EQ+ +  A + L + IC+R VGS L  +I   TLS  DI  ++ +L  K  D+P+ V CNCIP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>48102473</Statistics_db-num>
+      <Statistics_db-len>1001480804</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
